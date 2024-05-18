@@ -81,7 +81,6 @@ public class Window extends JFrame implements KeyListener {
     public void paint(Graphics g) {
         createBufferStrategy(2);
         BufferStrat = getBufferStrategy();
-
         Graphics secondFrame;
 
         do {
